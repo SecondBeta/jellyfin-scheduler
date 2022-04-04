@@ -1,7 +1,7 @@
 # A simple automation for my media server for downloading seasonals
 
-This is something I made to learn python, and I gotta say, not to bad for my first script. 
-*I think* 
+This is something I made to learn python, and I gotta say, not to bad for my first script, *I think*.
+
 The script gets the latest file from the desired show folder per week, makes a new folder in your media server folder with the show name, and finally copies the file over for your plex/jellyfin to pick up.
 
 ### Make sure to have the desired GDrive folder mounted with rclone or raidrive
