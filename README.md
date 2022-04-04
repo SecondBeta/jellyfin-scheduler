@@ -13,8 +13,9 @@ To give it any use you will need to setup a `config.json` which should look some
     "target_dirloc": "C:\\Jellyfin\\Anime"
 }
 ```
-dirloc = the src folder
-target_dirloc = the desired destination
+`dirloc` = the src folder
+
+`target_dirloc` = the desired destination
 
 Now to make it an automation you have to create a `automation.bat` (to make it an executable) file that looks like this:
 ```
