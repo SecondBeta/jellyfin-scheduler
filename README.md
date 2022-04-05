@@ -6,7 +6,7 @@ The script gets the latest file from the desired show folder per week, makes a n
 
 ### Make sure to have the desired GDrive folder mounted with rclone or raidrive
 
-To run the automation you need to add a `queue.txt` file, this will be a list of directories that the script will watch.
+To run the automation you need to add a `queue.txt` file, this will be a list of directories that the script will watch. Make sure to change the `target_dirloc` and `queue.txt` filepaths respectively in `main.py`
 
 Now to make it an automation: you have to create a `automation.bat` (to make it an executable) file that looks like this:
 ```

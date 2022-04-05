@@ -8,7 +8,8 @@ import shutil
 target_dirloc = r'F:\Jellyfin\Anime'
 
 lines = []
-with open('queue.txt', 'r') as queue:
+# Change to queue.txt file path
+with open('C:\Code Projects\jellyfin-scheduler\queue.txt', 'r') as queue:
     lines = queue.readlines()
 
 for line in lines:
